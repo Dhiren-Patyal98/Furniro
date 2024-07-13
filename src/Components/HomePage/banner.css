@@ -1,0 +1,74 @@
+.headContainer
+{
+    width: 100%;
+    height:90vh;
+   
+}
+
+.backgroundImage
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../Images/Homepageimages/scandinavian-interior-mockup-wall-decal-background\ 1.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.innerContainer
+{
+    width: 43%;
+    height: 53%;
+    background-color: #FFF3E3;
+    margin-left: 47%;
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%;
+}
+
+.content
+{
+    width: 85%;
+    height: 75%;
+    
+}
+
+.content-text
+{
+  font-weight: 600;
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #333333;
+}
+
+.content-p
+{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 500%;
+    color: #B88E2F;
+}
+
+.content p{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size:18px;
+    color:#333333;
+
+}
+
+.button
+{
+    width: 222px;
+    height: 74px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size:18px;
+    color:#FFFFFF;
+    background-color: #B88E2F;
+    border: none;
+}
