@@ -1,15 +1,15 @@
 import React from 'react'
-import TestNav from '../../Components/Nav/TestNav'
-import Footer from '../../Components/Footer.js/Footer'
+
 import './Cart.css'
 import cartimg from '../../Images/Cartimages/Cartproduct.png'
 import { TbTrashFilled } from "react-icons/tb";
 import HeaderTwo from './HeaderTwo'
+import WarrantyDetail from '../Shop/WarrantyDetail'
 
 export default function Cart() {
   return (
     <div>
-      <TestNav/>
+      
       <HeaderTwo/>
       <div className='Main-cartContainer'>
         <div className='cart-content'>
@@ -85,7 +85,8 @@ export default function Cart() {
 
         </div>
       </div>
-      <Footer/>
+      <WarrantyDetail/>
     </div>
+    
   )
 }

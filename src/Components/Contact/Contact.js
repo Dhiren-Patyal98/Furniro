@@ -1,15 +1,16 @@
 import React from "react";
-import TestNav from "../Nav/TestNav";
-import Footer from "../Footer.js/Footer";
+
+
 import "./contact.css";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 import { BsFillClockFill } from "react-icons/bs";
 import CommonHeader from "./CommonHeader";
+import WarrantyDetail from "../Shop/WarrantyDetail";
 export default function Contact() {
   return (
     <div >
-      <TestNav />
+     
       <CommonHeader/>
       <div className="container-one" style={{paddingTop:"3%"}}>
         <div className="contact-head">
@@ -122,7 +123,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-      <Footer />
+      <WarrantyDetail/>
     </div>
   );
 }

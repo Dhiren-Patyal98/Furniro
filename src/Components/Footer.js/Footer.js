@@ -1,6 +1,9 @@
 import React from 'react'
 import './footer.css'
+import { useNavigate } from 'react-router-dom';
 export default function Footer(){
+
+  const navigate = useNavigate();
   return (
     <div style={{paddingTop:"4%"}}>
     <div className="footerPart">
@@ -18,18 +21,18 @@ export default function Footer(){
         <div className="footerLinks">
           <p>Links</p>
           <ul>
-            <li>Home</li>
-            <li>Shop</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li onClick={()=>{ navigate("/")}} style={{cursor: "pointer"}}>Home</li>
+            <li onClick={()=>{ navigate("/shop")}} style={{cursor: "pointer"}}>Shop</li>
+            <li  onClick={()=>{ navigate("")}} style={{cursor: "pointer"}}>About</li>
+            <li  onClick={()=>{ navigate("/contact")}} style={{cursor: "pointer"}}>Contact</li>
           </ul>
         </div>
         <div className="footerHelp">
-          <p>Help</p>
+          <p >Help</p>
           <ul>
-            <li>Payment Options</li>
-            <li>Returns</li>
-            <li>Privacy Policies</li>
+            <li style={{cursor: "pointer"}}>Payment Options</li>
+            <li style={{cursor: "pointer"}}>Returns</li>
+            <li style={{cursor: "pointer"}}>Privacy Policies</li>
           </ul>
         </div>
         <div className="footerNewsletter">

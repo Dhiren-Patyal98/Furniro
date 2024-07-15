@@ -1,0 +1,230 @@
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins";
+}
+
+
+
+
+.product-container123 {
+  transform: scale(1); /* Adjust the scale factor as needed */
+  transform-origin: center top; /* or any specific font size you want */
+  font-size: large;
+}
+
+.li-bc{
+  font-size: 200px;
+}
+
+li{
+  font-size: large;
+}
+
+
+
+
+ul{
+  padding: 0;
+  list-style: none;
+  margin:0;
+}
+.bubble{
+  position: absolute;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  height: 5rem;
+  width: 5rem;
+  background-color: #E97171;
+  border-radius:50%;
+  left: 75%;
+  top: 5%;
+}
+
+
+.new{
+  background-color: #2EC1AC;
+}
+
+.prod-header{
+  background-color: #F9F1E7;
+  display: flex;
+  align-items: center;
+  gap:1.5rem;
+  padding:1.5rem 3rem;
+}
+.product-card{
+  display:flex;
+margin-top: 2.5rem;
+padding: 0;
+}
+
+.product-image-show{
+  
+  padding:0 4rem 1rem 0;
+}
+.product-desc{
+  display: flex;
+  flex-direction: column;
+  gap:1.25rem;
+}
+.product-desc *{
+margin:0;
+}
+.product-desc p:nth-child(2){
+  font-size:1.25rem;
+}
+.product-desc p:nth-child(4){
+  font-size:0.9rem;
+}
+.size-buttons{
+  display: flex;
+  gap:0.5rem;
+}
+.size-buttons button{
+ background-color: #F9F1E7;
+ border:0;
+  border-radius:0.5rem;
+  padding:0.5rem;
+}
+
+.size-buttons button:nth-child(1){
+  padding:0.5rem 0.75rem;
+}
+.side-images{
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+}
+.color-buttons{
+  display:flex;
+  gap:0.25rem;
+}
+.color-buttons button{
+  border:0;
+  border-radius:50%;
+  height: 2rem;
+  width:2rem;
+}
+.product-image-show{
+display: flex;
+
+}
+.prod-des-details{
+  display:grid;
+  grid-template-columns: 0.5fr 1fr;
+   padding:1.25rem 0 3rem 0;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.config-buttons{
+  display:flex;
+  gap:0.5rem;
+margin-bottom: 2rem;
+}
+.config-buttons button{
+  border: 0;
+  padding:1rem 2rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.config-buttons button:nth-child(1){
+  border: 1px solid #9F9F9F;
+  border-radius:0.8rem;
+}
+.prod-info{
+  color: #9F9F9F;
+  padding: 0 4.5rem;
+}
+.prod-info div{
+  margin-bottom: 1.5rem;
+}
+.product-extra-info{
+  padding: 2rem 5rem;
+}
+.prod-info-headings{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.prod-info-images{
+  display: flex;
+  gap: 1rem;
+}
+.related-products{
+  display: flex;
+  /* border: 5px solid red; */
+  /* justify-content: space-around; */
+  gap: 1.25rem;
+  width: fit-content;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.related-products-container{
+  padding: 1.5rem 3rem ;
+}
+.related-product-heading{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+ .r-prod-card{
+  /* border: 5px solid blue; */
+  position:relative;
+}
+.r-prod-desc{
+  background-color: #F4F5F7;
+  color: #3A3A3A;
+  padding: 0.5rem 0.75rem;
+  
+}
+.r-prod-desc ul li{
+  margin-bottom: 0.5rem;
+}
+.r-prod-desc li:nth-child(1){
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.r-prod-desc li:nth-child(2){
+  color: #898989;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.r-prod-desc li:nth-child(3){
+  font: 1.25rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+.r-prod-desc li span{
+  color: #B0B0B0;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+.r-prod-bubble{
+  position:absolute;
+  height: 3rem;
+  width: 3rem;
+  border-radius:50%;
+  border: 2px solid black;
+  left: 75%;
+  top: 5%;
+}
+.r-button{
+text-align: center;
+margin-top: 0.75rem;
+}
+.r-button button{
+  background-color: transparent;
+  color: #B88E2F;
+  border: 1px solid #B88E2F;
+  font-weight: 600;
+  padding: 0.5rem 3rem ;
+}
+/* Single Product  */
